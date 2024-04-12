@@ -1,0 +1,35 @@
+*body{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.container{
+	height: 100vh;
+	background-color: blueviolet;
+	display: flex;
+	align-items: center;
+	 justify-content: center;
+	 flex-wrap: nowrap;
+}
+.to-do{
+	background: goldenrod;
+	padding: 5rem;
+	display: flex;
+	flex-direction:column ;
+	border: 15px solid rgb(169, 197, 230);
+
+
+
+
+}
+.input{
+	 
+	border: ;
+	gap: ;
+
+}
+
+.button{
+	padding: 10px;
+
+}

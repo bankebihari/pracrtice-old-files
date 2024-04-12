@@ -1,0 +1,158 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Be vietnam pro",sans-serif;
+    scroll-behavior: smooth ;
+}
+#wrapper{
+	height: 100vh;
+	overflow-y: auto; 
+	overflow-x: hidden;
+}
+.container{
+	width: 900px; ;
+	margin:0 autos;
+}
+.navbar{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 1rem;
+}
+
+.logo-container{
+	display: flex; 
+	justify-content: baseline;
+	align-items: center;
+	
+}
+.logo{
+	width: 30px;
+	margin-left: 10px;
+
+}
+
+/* text align at same */
+.logo-text{
+	 
+	align-self:last baseline;
+	 
+	
+}
+.nav-item{
+	display: flex;
+	gap: 2rem;
+	padding: 0 4rem;
+
+}
+
+.nav-item div{
+	font-size: 20px;
+	font-weight: 100;
+	cursor:pointer;
+}
+.nav-item div a{
+	color: black;
+}
+a{
+	text-decoration: none;
+}
+.nav-item div:hover{
+	transition:0.8s ;
+	font-weight: bold ;
+}
+.hero-section{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	gap: 5rem;
+	margin: 4rem auto;
+	padding: 0 1rem;
+	padding-bottom: 8rem;
+}
+.faded-text{
+	user-select: none;
+	font-size: 1rem;
+	color: aliceblue;
+
+	bottom: -16%;
+	left: -5%;
+	font-weight: bold;
+	transition: all 3s;
+	
+}
+
+.hero-section-left{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 2rem;
+
+}
+.hero-section-heading{
+	font-size: 35px;
+	color: blue;
+	font-weight: 500;
+}
+.role{
+	color: blue;
+	font-weight: 600;
+}
+.hero-section-sub-heading{
+	font-size: 45px;
+	line-height: 45px;
+}
+.hero-section-description{
+	margin: top 70px;
+	width: 30px;
+	font-weight: 10;
+
+}
+.hero-section-right{
+	position:relative;
+}
+.absolute{
+	position: absolute;
+}
+.user-image{
+	padding: 2.5rem;
+	filter: grayscale(1);
+	transition: all 1s;
+	animation: scaleImage 5s linear infinite;
+}
+.user-image img{
+	z-index: -9;
+	width: 100px;
+	height: auto;
+
+}
+@keyframes scaleImage {
+
+	0%{
+		filter:grayscale(0);
+		transform:scale(1);
+		 
+
+	}
+	50%{
+		transform:scale(1.1) ;
+		filter: grayscale(1);
+		box-shadow: 3px 3px 10px black;
+	}
+	100%{
+		
+		transform: scale(1);
+		filter: grayscale(0);
+
+	}
+	
+}
+.icon-dots{
+	z-index: 9; 
+	bottom: -1rem ;
+	right: 0;  
+}
+

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>form</title>
+	<style>
+		
+	</style>
+</head>
+<body>
+	<form method="post"> 
+		<input type="text" id="name">
+		<input type="submit" name="" id=" " onclick="hello()"><br>
+		<input type="text"><br>
+		<input type="text"><br>
+		<input type="text"><br>
+
+	</form>
+	
+</body>
+<script>
+	function hello(){
+	// window.onload(alert('hello Welcome'));
+	a=document.getElementById('name').value;
+	document.getElementBYId('txt1').innerHTML=a;
+	}
+</script>
+
+</html>

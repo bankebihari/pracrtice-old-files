@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Grid</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+	<style>
+		.container{
+
+			 
+			width: 100px;
+			height: 300px;
+			display: grid;
+			grid-template-columns: 200px 200px 200px 200px 200px 200px 200px;
+			grid-template-rows: 200px 200px 200px;
+			grid-gap: 10px;
+			 
+			
+
+		}
+		.item1{
+			background-color: red;
+			grid-row-start: 1;
+			grid-row-end: 2;
+			grid-column-start: 1;
+			grid-column-end: 7;
+
+		}
+		.item2{
+			background-color: green;
+			grid-row-start: 2;
+			grid-row-end: 2;
+			grid-column-start: 1;
+			grid-column-end: 3;
+		}
+		.item3{
+			background-color: rgb(201, 201, 73);
+			grid-row-start: 2;
+			grid-row-end: 2;
+			grid-column-start: 3;
+			grid-column-end: 7;
+		}
+		.item4{
+			background-color: green;
+			grid-row-start: 3;
+			grid-row-end: 3;
+			grid-column-start: 1;
+			grid-column-end: 3;
+
+		}
+		.item5{
+			background-color: purple;
+			grid-row-start: 3;
+			grid-row-end: 3;
+			grid-column-start: 3;
+			grid-column-end: 4;
+		}
+		.item6{
+			background-color: rgb(66, 118, 46);
+			grid-row-start: 3;
+			grid-row-end: 3;
+			grid-column-start: 4;
+			grid-column-end: 7;
+		}
+		.container1{
+
+			 
+width: 100px;
+height: 300px;
+display: grid;
+grid-template-columns: 200px 200px 200px  ;
+ 
+grid-gap: 10px;
+ 
+
+
+}
+.itemm1{
+background-color: red;
+ 
+}
+.itemm2{
+background-color: green;
+ 
+}
+.itemm3{
+background-color: rgb(201, 201, 73);
+ 
+}
+.itemm4{
+background-color: green;
+ 
+
+}
+.itemm5{
+background-color: purple;
+ 
+}
+.itemm6{
+background-color: rgb(66, 118, 46);
+ 
+}
+</style>
+	</style>
+</head>
+<body>
+
+	<div class="container1">
+		<div class="itemm1">first</div>
+		<div class="itemm2">second</div>
+		<div class="itemm3">third</div>
+		<div class="itemm4">fouth</div>
+		<div class="itemm5">fifth</div>
+		<div class="itemm6">sixth</div>
+		
+	</div>
+
+	<br>
+	<div class="container">
+		<div class="item1">first</div>
+		<div class="item2">second</div>
+		<div class="item3">third</div>
+		<div class="item4">fouth</div>
+		<div class="item5">fifth</div>
+		<div class="item6">sixth</div>
+		
+	</div>
+	<br><br><br>
+	<a href="" class="btn btn-primary">click me</a>
+</body>
+</html>

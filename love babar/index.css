@@ -1,0 +1,50 @@
+
+*{
+	background-color: seagreen;
+}
+#a{
+	color:rebeccapurple;
+	text-align: center;
+	text-decoration:underline;
+	font-weight: lighter;
+	background-color: greenyellow;
+	font-size:xx-large;
+	border: 3px dotted red;
+
+}
+#b{
+	font-weight: bolder;
+	background-color: purple;
+	text-align: center;
+
+}
+#c{
+	text-align: center;
+	background-color: aqua;
+	height: 40px;
+}
+.p1{
+	font-family: cursive;
+	line-height: normal;
+}
+.p2{
+	text-align: center;
+	color: rgb(156, 21, 73);
+	line-height: 40px;
+}
+.div1{
+	border: 5px solid rgb(251, 72, 72);
+	height: 110px;
+	border-radius: 20px;
+}
+
+.div2{
+	border: 5px solid brown;
+    height: 50px;
+	border-radius: 50px;
+}
+.div3{
+	border: 3px solid white;
+	border-radius: 70px;
+	height: 40px;
+}

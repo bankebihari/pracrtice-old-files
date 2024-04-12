@@ -1,0 +1,17 @@
+*{
+ background-color: rgba(129, 172, 43, 0.283);
+ scroll-behavior: smooth;
+}
+.h1{
+	border:2px ;
+	background-color: rgb(77, 136, 152);
+	color:white;
+	text-align: center;
+	text-decoration: underline rgb(255, 0, 93);
+	text-shadow: 2px;
+	size:5cm;
+}
+a:hover{
+	color: red;
+}
+ 

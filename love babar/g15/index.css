@@ -1,0 +1,22 @@
+img:hover{
+	transform: scale(1.5);
+	
+	 
+}
+div{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+div img{
+	width:400px;
+	height: 300px;
+	border :2px solid green;
+	cursor: pointer;
+	transition: 400ms;
+}
+div img:hover{
+	filter:grayscale(1);
+	transform: scale(1.03);
+}

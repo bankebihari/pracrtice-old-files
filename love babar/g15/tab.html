@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+			 
+            body{
+                margin: 0;
+                padding: 0;
+            }
+            table{
+                height: 80vh;
+                width: 80vw;
+                border-collapse: collapse;
+            }
+            td{
+                text-align: center;
+            }
+        </style>
+        
+    </head>
+
+    <body>
+        <!-- <table border="2">
+            <tr>
+                <td colspan="2">
+                    1
+                </td>
+                <td rowspan="2" colspan="3">
+                    2
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    3
+                </td>
+                <td>
+                    4
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" rowspan="2">
+                    5
+                </td>
+                <td >
+                    6
+                </td>
+                <td>
+                    7
+                </td>
+                <td>
+                    8
+                </td>
+            </tr>
+            <tr>
+                
+                <td>
+                    9
+                </td>
+                <td colspan="2" rowspan="2">
+                    10
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    11
+                </td>
+                <td>
+                    12
+                </td>
+                <td>
+                    13
+                </td>
+            </tr>
+        </table> -->
+		<h1>table with the help of javascript</h1>
+        <div id="div1"></div>
+        
+        <script>
+            var str = "<table border=2>";
+            for (let index = 1; index <= 10; index++) {
+                str = str + "<tr>";  
+                str = str + '<td>' + 2 + "</td>" +'<td>' + '*' + "</td>" + "<td>"+ index+"</td>"+'<td>' + '=' + "</td>" + '<td>' + 2*index + "</td>" ;
+                str+="</tr>"
+            }
+            str+="</table>";
+            document.getElementById("div1").innerHTML = str;
+        </script>
+
+		<div id="div2"></div>
+		<script>
+			var str="<table>";
+				for(let index=1;index<=10;index++){
+					str=str+"<tr>";
+					str=str+"<td>"+2+</td> + "<td>"+* + "<td>"+<td> + index+"</td>"
+				}
+		</script>
+    </body>
+
+</html>

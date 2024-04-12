@@ -1,0 +1,63 @@
+body{
+    background-color:cyan
+}
+h1{
+    text-align: center;
+}
+.myform{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+h2{
+    padding-left: 510px;
+}
+#btn{
+    border-radius: 20px;
+    background-color: cornflowerblue;
+    outline: none;
+    height: 30px;
+    width: 70px;
+    font-weight:500;
+    font-size: large;
+}
+
+#taskitem{
+    height: 20px;
+    border-radius: 5px;
+    outline: none;
+}
+.tasklist{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    gap: 10px;
+    padding: 20px 0;
+    font-weight: 600;
+}
+
+.tasklist div {
+    display: flex;
+    min-width: 250px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.tasklist div button{
+    padding: 0 8px;
+    margin: 0 10px;
+}
+
+
+.edit{
+    border-radius: 3px;
+    background-color: darkorchid;
+}
+
+.delete-button{
+    border-radius: 3px;
+    background-color: red;
+}
